@@ -3,51 +3,54 @@
 ![Version](https://img.shields.io/github/package-json/v/Hulle107/libslm-binary?style=for-the-badge)
 ![License](https://img.shields.io/github/license/Hulle107/libslm-binary?style=for-the-badge)
 
-## Indexing
+## 📚 Indexing
+
 - [Libslm (Life is boring so let's make) C64](#libslm-life-is-boring-so-lets-make-c64)
-  - [Indexing](#indexing)
-  - [Introduction](#introduction)
-  - [Virtual Machine (VM)](#virtual-machine-vm)
-    - [Features](#features)
-    - [Components](#components)
-    - [Usage Example](#usage-example)
-    - [Roadmap](#roadmap)
-    - [Notes](#notes)
+  - [📚 Indexing](#-indexing)
+  - [📢 Introduction](#-introduction)
+  - [🧠 Virtual Machine (VM)](#-virtual-machine-vm)
+    - [✨ Features](#-features)
+    - [🧩 Components](#-components)
+    - [💡 Usage Example](#-usage-example)
+    - [🛣️ Roadmap](#️-roadmap)
+    - [📝 Notes](#-notes)
 
-## Introduction
-Welcome to this library—a chaotic collection of experiments, half-baked ideas, and random bursts of inspiration. This is not a polished, production-ready framework but rather a playground for concepts that may or may not evolve into something useful.
+## 📢 Introduction
 
-Because of its experimental nature, stability is not guaranteed. Features may change, disappear, or break without warning. If you're looking for a dependable tool, you might want to look elsewhere. But if you're here for curiosity, exploration, or sheer madness, welcome aboard!
+Welcome to **Libslm C64** — a chaotic collection of experiments, half-baked ideas, and bursts of inspiration. This isn't a polished, production-ready framework. It's a playground for concepts that may or may not evolve into something meaningful.
 
-Use at your own risk, and enjoy the ride.
+Because of its experimental nature, **stability is not guaranteed**. Features may change, disappear, or break without warning. If you're looking for a dependable tool, you might want to look elsewhere. But if you're here out of **curiosity, exploration, or sheer madness** — welcome aboard.
 
-## Virtual Machine (VM)
-This project is an experimental implementation of a virtual machine (VM) written in TypeScript. The goal is to create a low-level execution environment capable of interpreting a custom instruction set. This VM is a work in progress, so expect frequent changes and refinements.
+> ⚠️ Use at your own risk. Enjoy the ride.
 
-### Features
-- **Custom Instruction Set** – Define and execute bytecode operations.
-- **Register-Based Architecture** – Use a set of registers for efficient execution.
-- **Memory Management** – Read and write memory using an internal stack and heap.
-- **Opcode Execution** – Decode and process instructions dynamically.
+## 🧠 Virtual Machine (VM)
 
-### Components
-- CPU – Executes instructions and manages registers.
-- Memory – Provides an addressable space for storing and retrieving data.
-- Stack – Handles function calls and local storage.
-- Instruction Set – Defines the available operations and their behavior.
+This project is an experimental virtual machine (VM) written in TypeScript. It aims to simulate a **Commodore 64** and serve as a playground for VM architecture concepts.
 
-### Usage Example
+### ✨ Features
+
+- More will be coming.
+
+### 🧩 Components
+
+- More will be coming.
+
+### 💡 Usage Example
+
 ```typescript
-import {mashine} from 'libslm-c64';
-
 // Missing functionality still, so more will come then.
 ```
 
-### Roadmap
-- 🔲 Basic instruction execution
-- 🔲 Stack and memory management
-- 🔲 Input/output handling
-- 🔲 Advanced debugging tools
+### 🛣️ Roadmap
 
-### Notes
-This VM is purely experimental and not optimized for production. Expect breaking changes, and feel free to experiment with modifying the instruction set and execution model.
+| Status | Feature |
+|:------:|:--------|
+| 🔲 | Basic implementation |
+| 🔲 | Memory Management |
+| 🔲 | IO handling |
+| 🔲 | Basic graphic |
+| 🔲 | Debugging tools |
+
+### 📝 Notes
+
+This VM is **purely experimental** and not optimized for production. Given the library's experimental status, expect things to **evolve** — or get scrapped entirely.
