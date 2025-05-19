@@ -1,0 +1,12 @@
+# Dependency directories
+node_modules/
+
+# Typescript
+tsconfig.json
+
+# Source directories
+src/
+
+# Github
+.github/
+.gitignore

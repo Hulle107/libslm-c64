@@ -1,0 +1,25 @@
+{
+  "name": "@hulle107/libslm-c64",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Hulle107/libslm-c64#readme",
+  "description": "",
+  "license": "MIT",
+  "author": "Delta Thiesen <delta.thiesen.1990@gmail.com>",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hulle107/libslm-c64.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Hulle107/libslm-c64/issues"
+  },
+  "dependencies": {
+    "@hulle107/libslm-binary": "^1.0.7"
+  }
+}
